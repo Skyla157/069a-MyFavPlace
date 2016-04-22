@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		A5C15D9F1CCAA39E00D6BC3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C15D9E1CCAA39E00D6BC3C /* AppDelegate.swift */; };
-		A5C15DA11CCAA39E00D6BC3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C15DA01CCAA39E00D6BC3C /* ViewController.swift */; };
 		A5C15DA41CCAA39E00D6BC3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C15DA21CCAA39E00D6BC3C /* Main.storyboard */; };
 		A5C15DA61CCAA39E00D6BC3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C15DA51CCAA39E00D6BC3C /* Assets.xcassets */; };
 		A5C15DA91CCAA39E00D6BC3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C15DA71CCAA39E00D6BC3C /* LaunchScreen.storyboard */; };
+		A5C15DB61CCAA3E100D6BC3C /* CaviarDreams_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5C15DB41CCAA3E100D6BC3C /* CaviarDreams_Bold.ttf */; };
+		A5C15DB71CCAA3E100D6BC3C /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5C15DB51CCAA3E100D6BC3C /* CaviarDreams.ttf */; };
+		A5C15DBA1CCAA63500D6BC3C /* PhotoLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C15DB81CCAA63500D6BC3C /* PhotoLabels.swift */; };
+		A5C15DBB1CCAA63500D6BC3C /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C15DB91CCAA63500D6BC3C /* Buttons.swift */; };
+		A5C15DC01CCAA65000D6BC3C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C15DBC1CCAA65000D6BC3C /* ImageViewController.swift */; };
+		A5C15DC11CCAA65000D6BC3C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C15DBD1CCAA65000D6BC3C /* MainViewController.swift */; };
+		A5C15DC21CCAA65000D6BC3C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C15DBE1CCAA65000D6BC3C /* DetailsViewController.swift */; };
+		A5C15DC31CCAA65000D6BC3C /* ImagePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C15DBF1CCAA65000D6BC3C /* ImagePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5C15D9B1CCAA39E00D6BC3C /* 069a-MyFavPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "069a-MyFavPlace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C15D9E1CCAA39E00D6BC3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5C15DA01CCAA39E00D6BC3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5C15DA31CCAA39E00D6BC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5C15DA51CCAA39E00D6BC3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5C15DA81CCAA39E00D6BC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5C15DAA1CCAA39E00D6BC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C15DB41CCAA3E100D6BC3C /* CaviarDreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Bold.ttf; sourceTree = "<group>"; };
+		A5C15DB51CCAA3E100D6BC3C /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams.ttf; sourceTree = "<group>"; };
+		A5C15DB81CCAA63500D6BC3C /* PhotoLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLabels.swift; sourceTree = "<group>"; };
+		A5C15DB91CCAA63500D6BC3C /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		A5C15DBC1CCAA65000D6BC3C /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		A5C15DBD1CCAA65000D6BC3C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A5C15DBE1CCAA65000D6BC3C /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A5C15DBF1CCAA65000D6BC3C /* ImagePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,53 @@
 		A5C15D9D1CCAA39E00D6BC3C /* 069a-MyFavPlace */ = {
 			isa = PBXGroup;
 			children = (
+				A5C15DB31CCAA3CD00D6BC3C /* Controller */,
+				A5C15DB21CCAA3C900D6BC3C /* View */,
+				A5C15DB11CCAA3C400D6BC3C /* Model */,
+				A5C15DB01CCAA3B800D6BC3C /* Resources */,
 				A5C15D9E1CCAA39E00D6BC3C /* AppDelegate.swift */,
-				A5C15DA01CCAA39E00D6BC3C /* ViewController.swift */,
 				A5C15DA21CCAA39E00D6BC3C /* Main.storyboard */,
 				A5C15DA51CCAA39E00D6BC3C /* Assets.xcassets */,
 				A5C15DA71CCAA39E00D6BC3C /* LaunchScreen.storyboard */,
 				A5C15DAA1CCAA39E00D6BC3C /* Info.plist */,
 			);
 			path = "069a-MyFavPlace";
+			sourceTree = "<group>";
+		};
+		A5C15DB01CCAA3B800D6BC3C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5C15DB41CCAA3E100D6BC3C /* CaviarDreams_Bold.ttf */,
+				A5C15DB51CCAA3E100D6BC3C /* CaviarDreams.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A5C15DB11CCAA3C400D6BC3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A5C15DB21CCAA3C900D6BC3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5C15DB81CCAA63500D6BC3C /* PhotoLabels.swift */,
+				A5C15DB91CCAA63500D6BC3C /* Buttons.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A5C15DB31CCAA3CD00D6BC3C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5C15DBD1CCAA65000D6BC3C /* MainViewController.swift */,
+				A5C15DBE1CCAA65000D6BC3C /* DetailsViewController.swift */,
+				A5C15DBC1CCAA65000D6BC3C /* ImageViewController.swift */,
+				A5C15DBF1CCAA65000D6BC3C /* ImagePageViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +178,8 @@
 				A5C15DA91CCAA39E00D6BC3C /* LaunchScreen.storyboard in Resources */,
 				A5C15DA61CCAA39E00D6BC3C /* Assets.xcassets in Resources */,
 				A5C15DA41CCAA39E00D6BC3C /* Main.storyboard in Resources */,
+				A5C15DB71CCAA3E100D6BC3C /* CaviarDreams.ttf in Resources */,
+				A5C15DB61CCAA3E100D6BC3C /* CaviarDreams_Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5C15DA11CCAA39E00D6BC3C /* ViewController.swift in Sources */,
+				A5C15DBA1CCAA63500D6BC3C /* PhotoLabels.swift in Sources */,
+				A5C15DC01CCAA65000D6BC3C /* ImageViewController.swift in Sources */,
+				A5C15DC11CCAA65000D6BC3C /* MainViewController.swift in Sources */,
+				A5C15DC21CCAA65000D6BC3C /* DetailsViewController.swift in Sources */,
 				A5C15D9F1CCAA39E00D6BC3C /* AppDelegate.swift in Sources */,
+				A5C15DBB1CCAA63500D6BC3C /* Buttons.swift in Sources */,
+				A5C15DC31CCAA65000D6BC3C /* ImagePageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "069a-MyFavPlace/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.skyla157.-69a-MyFavPlace";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "069a-MyFavPlace/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.skyla157.-69a-MyFavPlace";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +348,7 @@
 				A5C15DAF1CCAA39E00D6BC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
