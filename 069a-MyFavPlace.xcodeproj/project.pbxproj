@@ -18,7 +18,6 @@
 		A5C15DC01CCAA65000D6BC3C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C15DBC1CCAA65000D6BC3C /* ImageViewController.swift */; };
 		A5C15DC11CCAA65000D6BC3C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C15DBD1CCAA65000D6BC3C /* MainViewController.swift */; };
 		A5C15DC21CCAA65000D6BC3C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C15DBE1CCAA65000D6BC3C /* DetailsViewController.swift */; };
-		A5C15DC31CCAA65000D6BC3C /* ImagePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C15DBF1CCAA65000D6BC3C /* ImagePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +34,6 @@
 		A5C15DBC1CCAA65000D6BC3C /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		A5C15DBD1CCAA65000D6BC3C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A5C15DBE1CCAA65000D6BC3C /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		A5C15DBF1CCAA65000D6BC3C /* ImagePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +110,6 @@
 				A5C15DBD1CCAA65000D6BC3C /* MainViewController.swift */,
 				A5C15DBE1CCAA65000D6BC3C /* DetailsViewController.swift */,
 				A5C15DBC1CCAA65000D6BC3C /* ImageViewController.swift */,
-				A5C15DBF1CCAA65000D6BC3C /* ImagePageViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -149,6 +146,7 @@
 				TargetAttributes = {
 					A5C15D9A1CCAA39E00D6BC3C = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 98M8BM53F3;
 					};
 				};
 			};
@@ -196,7 +194,6 @@
 				A5C15DC21CCAA65000D6BC3C /* DetailsViewController.swift in Sources */,
 				A5C15D9F1CCAA39E00D6BC3C /* AppDelegate.swift in Sources */,
 				A5C15DBB1CCAA63500D6BC3C /* Buttons.swift in Sources */,
-				A5C15DC31CCAA65000D6BC3C /* ImagePageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,11 +306,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "069a-MyFavPlace/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.skyla157.-69a-MyFavPlace";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -321,11 +321,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "069a-MyFavPlace/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.skyla157.-69a-MyFavPlace";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
